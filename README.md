@@ -1,1 +1,1 @@
-This repository contains sample configurations for logback.
+This repository contains repositories about logging in java
