@@ -38,17 +38,10 @@
         </filter>-->
     </appender>
 
-
-    <!--    <appender name="STDOUT" class="ConsoleAppender">
-            <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
-                <providers>
-                    <timestamp />
-                    <loggerName />
-                    <logLevel />
-                    <message />
-                </providers>
-            </encoder>
-        </appender>-->
+    <!-- Json layouts -->
+      <!--    <appender name="STDOUT" class="ConsoleAppender">
+                <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+          </appender>-->
 
 <!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.JsonEncoder"/>
