@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: logback-with-spring-boot
+
+server:
+  port: 10004
+
+logging:
+  level:
+    root: info
+    org.example.logback.anothersubpackage: info
+  #file:
+  #  name:
+  #  path: logback-with-spring-boot
+  #pattern:
+  #  console: "%d{dd-MM-yyyy HH:mm:ss.SSS} %green([%thread]) %clr(${PID:- }) %magenta(${APP_NAME}) %highlight(%-5level) %logger{46}.%M - %msg%n"
