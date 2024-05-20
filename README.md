@@ -1,1 +1,1 @@
-This repository contains repositories about logging in java
+This repository contains repositories about logging in java and Spring Boot
